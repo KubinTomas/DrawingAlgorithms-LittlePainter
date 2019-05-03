@@ -41,5 +41,8 @@ namespace LittlePainterProject.Models.Managers
         public abstract void PreviewDrawing(HashSet<Point> mousePositions);
 
         public abstract void Draw();
+
+        public abstract void DestroySavedObjects();
+
     }
 }

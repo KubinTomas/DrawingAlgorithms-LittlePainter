@@ -60,6 +60,7 @@ namespace LittlePainterProject
             controlPanel.BackColor = Color.LightGray;
             controlPanel.Size = new Size(screenSize.Width,Setting.ToolBarHeight);
             controlPanel.Location = new Point(0, 0);
+            controlPanel.mainWindow = this;
 
             _actions = new Dictionary<Keys, bool>();
             _mousePositions = new HashSet<Point>();
@@ -93,7 +94,7 @@ namespace LittlePainterProject
             }
 
         }
-        private void DrawObjects()
+        public void DrawObjects()
         {
             _painterManager.Draw();
 
@@ -157,16 +158,7 @@ namespace LittlePainterProject
         }
 
         private void canvas_MouseMove(object sender, MouseEventArgs e)
-        {
-            //TrackMousePosition();
-            ////preview drawing
-            //if (_painterManager.IsLeftMouseButtonPressed)
-            //{
-            //    _painterManager.DrawPaintPreview();
-
-            //    RefreshCanvas();
-            //}
-        }
+        { }
 
         private void controlPanel_MouseEnter(object sender, EventArgs e)
         {
@@ -180,8 +172,7 @@ namespace LittlePainterProject
             canvas.Cursor = _painterManager.SelectedTool.Cursor;
         }
 
-      
-        private void ClearCanvas()
+        public void ClearCanvas()
         {
             _bitmap.ClearBitmap();
 

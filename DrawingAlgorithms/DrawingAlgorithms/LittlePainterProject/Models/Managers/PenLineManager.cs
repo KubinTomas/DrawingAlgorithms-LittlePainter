@@ -134,5 +134,10 @@ namespace LittlePainterProject.Models.Managers
                 }
             }
         }
+
+        public override void DestroySavedObjects()
+        {
+            _penLines = new List<PenLine>();
+        }
     }
 }

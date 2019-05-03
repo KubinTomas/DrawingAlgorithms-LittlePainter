@@ -9,12 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using LittlePainterProject.Models.Share;
 using LittlePainterProject.Models.Managers;
+using System.Drawing.Imaging;
 
 namespace LittlePainterProject.Windows
 {
     public partial class MenuControl : UserControl
     {
         public PainterManager painterManager;
+        public MainWindow mainWindow;
+
+        public event EventHandler MyEvent;
 
         public MenuControl()
         {
@@ -54,7 +58,7 @@ namespace LittlePainterProject.Windows
         private void colorPickerBtn_Click(object sender, EventArgs e)
         {
             colorPicker.AllowFullOpen = true;
-   
+
             colorPicker.Color = colorPickerBtn.BackColor;
 
             if (colorPicker.ShowDialog() == DialogResult.OK)
@@ -93,7 +97,40 @@ namespace LittlePainterProject.Windows
         {
             painterManager.SetTool(ColorFillerManager.Tool);
         }
-           
-      
+
+        private void saveImageBtn_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveDialog = new SaveFileDialog();
+            saveDialog.FileName = "image";
+            saveDialog.DefaultExt = "jpg";
+            saveDialog.Filter = "JPG images (*.jpg)|*.jpg";
+
+            if (saveDialog.ShowDialog() == DialogResult.OK)
+            {
+                var fileName = saveDialog.FileName;
+                if (!System.IO.Path.HasExtension(fileName) || System.IO.Path.GetExtension(fileName) != "jpg")
+                    fileName = fileName + ".jpg";
+
+                painterManager.GetBitmap().GetBitmap().Save(fileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+            }
+        }
+
+        private void clearnBtn_Click(object sender, EventArgs e)
+        {
+            mainWindow.ClearCanvas();
+        }
+
+        private void redrawBtn_Click(object sender, EventArgs e)
+        {
+            mainWindow.DrawObjects();
+        }
+
+        private void newBtn_Click(object sender, EventArgs e)
+        {
+            //destory saved objects
+            painterManager.DestroySavedDrawingObjects();
+
+            mainWindow.ClearCanvas();
+        }
     }
 }

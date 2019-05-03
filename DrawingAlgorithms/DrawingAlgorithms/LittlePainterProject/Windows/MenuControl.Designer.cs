@@ -280,6 +280,7 @@
             this.redrawBtn.TabIndex = 7;
             this.btnTooltip.SetToolTip(this.redrawBtn, "Draw objects from memory");
             this.redrawBtn.UseVisualStyleBackColor = true;
+            this.redrawBtn.Click += new System.EventHandler(this.redrawBtn_Click);
             // 
             // newBtn
             // 
@@ -290,6 +291,7 @@
             this.newBtn.TabIndex = 6;
             this.btnTooltip.SetToolTip(this.newBtn, "Clear canvas, you will loose your objects in memory");
             this.newBtn.UseVisualStyleBackColor = true;
+            this.newBtn.Click += new System.EventHandler(this.newBtn_Click);
             // 
             // clearnBtn
             // 
@@ -300,6 +302,7 @@
             this.clearnBtn.TabIndex = 5;
             this.btnTooltip.SetToolTip(this.clearnBtn, "Clear canvas, you will not loose your objects in memory");
             this.clearnBtn.UseVisualStyleBackColor = true;
+            this.clearnBtn.Click += new System.EventHandler(this.clearnBtn_Click);
             // 
             // saveImageBtn
             // 
@@ -310,6 +313,7 @@
             this.saveImageBtn.TabIndex = 4;
             this.btnTooltip.SetToolTip(this.saveImageBtn, "Save bitmap as image\r\n");
             this.saveImageBtn.UseVisualStyleBackColor = true;
+            this.saveImageBtn.Click += new System.EventHandler(this.saveImageBtn_Click);
             // 
             // MenuControl
             // 

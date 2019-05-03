@@ -131,5 +131,10 @@ namespace LittlePainterProject.Models.Managers
 
             Add(circle);
         }
+
+        public override void DestroySavedObjects()
+        {
+            _circles = new List<CircleModel>();
+        }
     }
 }

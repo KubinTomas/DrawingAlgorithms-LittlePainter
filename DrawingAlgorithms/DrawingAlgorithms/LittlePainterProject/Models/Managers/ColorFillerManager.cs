@@ -38,5 +38,8 @@ namespace LittlePainterProject.Models.Managers
 
             _colorFillingAlgorithm.Fill(startPoint, _bitmap.GetPixel(startPoint.X, startPoint.Y));
         }
+
+        public override void DestroySavedObjects()
+        { }
     }
 }

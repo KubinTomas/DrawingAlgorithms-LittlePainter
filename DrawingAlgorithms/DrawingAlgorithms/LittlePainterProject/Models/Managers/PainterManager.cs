@@ -24,11 +24,19 @@ namespace LittlePainterProject.Models.Managers
         // Tools Managers
         private readonly Dictionary<Tool, DrawingManager> _drawingManagers;
 
+        private ICustomBitmap _bitmap;
+
         public PainterManager(ICustomBitmap bitmap)
         {
             _mousePositions = new HashSet<Point>();
 
             _drawingManagers = DrawingManager.GetDrawingManagers(bitmap);
+
+            _bitmap = bitmap;
+        }
+        public ICustomBitmap GetBitmap()
+        {
+            return _bitmap;
         }
         public void OnLeftMouseDown()
         {
@@ -90,6 +98,13 @@ namespace LittlePainterProject.Models.Managers
             foreach (var drawingManager in _drawingManagers)
             {
                 drawingManager.Value.Draw();
+            }
+        }
+        public void DestroySavedDrawingObjects()
+        {
+            foreach (var drawingManager in _drawingManagers)
+            {
+                drawingManager.Value.DestroySavedObjects();
             }
         }
     }

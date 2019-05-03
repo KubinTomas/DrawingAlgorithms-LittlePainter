@@ -161,5 +161,10 @@ namespace LittlePainterProject.Models.Managers
 
             Add(triangle);
         }
+
+        public override void DestroySavedObjects()
+        {
+            _triangles = new List<TriangleModel>();
+        }
     }
 }
