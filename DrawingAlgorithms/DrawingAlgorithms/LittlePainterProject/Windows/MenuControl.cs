@@ -30,8 +30,27 @@ namespace LittlePainterProject.Windows
             sizeTrBar.Value = Setting.DefaultPixelSize;
 
             penBtn.Image = LittlePainterProject.Properties.Resources.pen1;
+
+            InitPreSelectedDefaultColorsBtn();
+        }
+        private void InitPreSelectedDefaultColorsBtn()
+        {
+            fastSavedColorBtn1.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn2.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn3.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn4.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn5.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn6.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn7.Click += new EventHandler(onFastSaveColorBtnClick);
+            fastSavedColorBtn8.Click += new EventHandler(onFastSaveColorBtnClick);
         }
 
+        private void onFastSaveColorBtnClick(object sender, EventArgs e)
+        {
+            colorPickerBtn.BackColor = ((Button)sender).BackColor;
+
+            Setting.SelectedColor = ((Button)sender).BackColor;
+        }
         private void colorPickerBtn_Click(object sender, EventArgs e)
         {
             colorPicker.AllowFullOpen = true;
@@ -74,5 +93,7 @@ namespace LittlePainterProject.Windows
         {
             painterManager.SetTool(ColorFillerManager.Tool);
         }
+           
+      
     }
 }

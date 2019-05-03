@@ -32,6 +32,15 @@
             this.colorPicker = new System.Windows.Forms.ColorDialog();
             this.colorPickerBtn = new System.Windows.Forms.Button();
             this.settingsGroupBox = new System.Windows.Forms.GroupBox();
+            this.fastSavedColorBtn8 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn7 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn6 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn5 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn4 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn3 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn2 = new System.Windows.Forms.Button();
+            this.fastSavedColorBtn1 = new System.Windows.Forms.Button();
+            this.seedFillAlgBtn = new System.Windows.Forms.Button();
             this.sizeLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.sizeTrBar = new System.Windows.Forms.TrackBar();
@@ -46,7 +55,6 @@
             this.clearnBtn = new System.Windows.Forms.Button();
             this.saveImageBtn = new System.Windows.Forms.Button();
             this.btnTooltip = new System.Windows.Forms.ToolTip(this.components);
-            this.seedFillAlgBtn = new System.Windows.Forms.Button();
             this.settingsGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sizeTrBar)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -55,15 +63,23 @@
             // 
             // colorPickerBtn
             // 
-            this.colorPickerBtn.Location = new System.Drawing.Point(164, 19);
+            this.colorPickerBtn.Location = new System.Drawing.Point(178, 15);
             this.colorPickerBtn.Name = "colorPickerBtn";
-            this.colorPickerBtn.Size = new System.Drawing.Size(73, 46);
+            this.colorPickerBtn.Size = new System.Drawing.Size(69, 50);
             this.colorPickerBtn.TabIndex = 1;
             this.colorPickerBtn.UseVisualStyleBackColor = true;
             this.colorPickerBtn.Click += new System.EventHandler(this.colorPickerBtn_Click);
             // 
             // settingsGroupBox
             // 
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn8);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn7);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn6);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn5);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn4);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn3);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn2);
+            this.settingsGroupBox.Controls.Add(this.fastSavedColorBtn1);
             this.settingsGroupBox.Controls.Add(this.seedFillAlgBtn);
             this.settingsGroupBox.Controls.Add(this.sizeLbl);
             this.settingsGroupBox.Controls.Add(this.label1);
@@ -75,6 +91,88 @@
             this.settingsGroupBox.TabIndex = 2;
             this.settingsGroupBox.TabStop = false;
             this.settingsGroupBox.Text = "Settings";
+            // 
+            // fastSavedColorBtn8
+            // 
+            this.fastSavedColorBtn8.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.fastSavedColorBtn8.Location = new System.Drawing.Point(147, 45);
+            this.fastSavedColorBtn8.Name = "fastSavedColorBtn8";
+            this.fastSavedColorBtn8.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn8.TabIndex = 12;
+            this.fastSavedColorBtn8.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn7
+            // 
+            this.fastSavedColorBtn7.BackColor = System.Drawing.Color.ForestGreen;
+            this.fastSavedColorBtn7.Location = new System.Drawing.Point(121, 45);
+            this.fastSavedColorBtn7.Name = "fastSavedColorBtn7";
+            this.fastSavedColorBtn7.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn7.TabIndex = 11;
+            this.fastSavedColorBtn7.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn6
+            // 
+            this.fastSavedColorBtn6.BackColor = System.Drawing.Color.Tomato;
+            this.fastSavedColorBtn6.Location = new System.Drawing.Point(95, 45);
+            this.fastSavedColorBtn6.Name = "fastSavedColorBtn6";
+            this.fastSavedColorBtn6.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn6.TabIndex = 10;
+            this.fastSavedColorBtn6.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn5
+            // 
+            this.fastSavedColorBtn5.BackColor = System.Drawing.Color.Maroon;
+            this.fastSavedColorBtn5.Location = new System.Drawing.Point(69, 45);
+            this.fastSavedColorBtn5.Name = "fastSavedColorBtn5";
+            this.fastSavedColorBtn5.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn5.TabIndex = 9;
+            this.fastSavedColorBtn5.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn4
+            // 
+            this.fastSavedColorBtn4.BackColor = System.Drawing.Color.Yellow;
+            this.fastSavedColorBtn4.Location = new System.Drawing.Point(147, 15);
+            this.fastSavedColorBtn4.Name = "fastSavedColorBtn4";
+            this.fastSavedColorBtn4.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn4.TabIndex = 8;
+            this.fastSavedColorBtn4.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn3
+            // 
+            this.fastSavedColorBtn3.BackColor = System.Drawing.Color.DarkGray;
+            this.fastSavedColorBtn3.Location = new System.Drawing.Point(121, 15);
+            this.fastSavedColorBtn3.Name = "fastSavedColorBtn3";
+            this.fastSavedColorBtn3.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn3.TabIndex = 7;
+            this.fastSavedColorBtn3.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn2
+            // 
+            this.fastSavedColorBtn2.BackColor = System.Drawing.Color.DimGray;
+            this.fastSavedColorBtn2.Location = new System.Drawing.Point(95, 15);
+            this.fastSavedColorBtn2.Name = "fastSavedColorBtn2";
+            this.fastSavedColorBtn2.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn2.TabIndex = 6;
+            this.fastSavedColorBtn2.UseVisualStyleBackColor = false;
+            // 
+            // fastSavedColorBtn1
+            // 
+            this.fastSavedColorBtn1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.fastSavedColorBtn1.Location = new System.Drawing.Point(69, 15);
+            this.fastSavedColorBtn1.Name = "fastSavedColorBtn1";
+            this.fastSavedColorBtn1.Size = new System.Drawing.Size(20, 20);
+            this.fastSavedColorBtn1.TabIndex = 5;
+            this.fastSavedColorBtn1.UseVisualStyleBackColor = false;
+            // 
+            // seedFillAlgBtn
+            // 
+            this.seedFillAlgBtn.Image = global::LittlePainterProject.Properties.Resources.fillColorCan;
+            this.seedFillAlgBtn.Location = new System.Drawing.Point(10, 15);
+            this.seedFillAlgBtn.Name = "seedFillAlgBtn";
+            this.seedFillAlgBtn.Size = new System.Drawing.Size(50, 50);
+            this.seedFillAlgBtn.TabIndex = 4;
+            this.seedFillAlgBtn.UseVisualStyleBackColor = true;
+            this.seedFillAlgBtn.Click += new System.EventHandler(this.seedFillAlgBtn_Click);
             // 
             // sizeLbl
             // 
@@ -213,16 +311,6 @@
             this.btnTooltip.SetToolTip(this.saveImageBtn, "Save bitmap as image\r\n");
             this.saveImageBtn.UseVisualStyleBackColor = true;
             // 
-            // seedFillAlgBtn
-            // 
-            this.seedFillAlgBtn.Image = global::LittlePainterProject.Properties.Resources.triangleCursor;
-            this.seedFillAlgBtn.Location = new System.Drawing.Point(10, 15);
-            this.seedFillAlgBtn.Name = "seedFillAlgBtn";
-            this.seedFillAlgBtn.Size = new System.Drawing.Size(50, 50);
-            this.seedFillAlgBtn.TabIndex = 4;
-            this.seedFillAlgBtn.UseVisualStyleBackColor = true;
-            this.seedFillAlgBtn.Click += new System.EventHandler(this.seedFillAlgBtn_Click);
-            // 
             // MenuControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,5 +350,13 @@
         private System.Windows.Forms.Button clearnBtn;
         private System.Windows.Forms.ToolTip btnTooltip;
         private System.Windows.Forms.Button seedFillAlgBtn;
+        private System.Windows.Forms.Button fastSavedColorBtn1;
+        private System.Windows.Forms.Button fastSavedColorBtn8;
+        private System.Windows.Forms.Button fastSavedColorBtn7;
+        private System.Windows.Forms.Button fastSavedColorBtn6;
+        private System.Windows.Forms.Button fastSavedColorBtn5;
+        private System.Windows.Forms.Button fastSavedColorBtn4;
+        private System.Windows.Forms.Button fastSavedColorBtn3;
+        private System.Windows.Forms.Button fastSavedColorBtn2;
     }
 }

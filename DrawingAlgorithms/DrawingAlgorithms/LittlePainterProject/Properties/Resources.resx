@@ -127,17 +127,14 @@
   <data name="redrawIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\redrawIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="triangleCursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\triangleCursor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\Cursors\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="straightLineCursor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\straightLineCursor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icons\Cursors\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="straightLineCursor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\straightLineCursor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\Cursors\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="saveIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\saveIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,13 +142,19 @@
   <data name="clearicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clearicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="circleCursor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circleCursor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="triangleCursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triangleCursor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circleCursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circleCursor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="circleCursor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circleCursor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="newIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fillColorCan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fillColorCan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
