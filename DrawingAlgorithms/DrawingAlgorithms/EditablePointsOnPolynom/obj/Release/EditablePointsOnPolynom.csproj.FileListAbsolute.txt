@@ -1,0 +1,7 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\bin\Release\EditablePointsOnPolynom.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\bin\Release\EditablePointsOnPolynom.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\obj\Release\EditablePointsOnPolynom.Window.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\obj\Release\EditablePointsOnPolynom.csproj.GenerateResource.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\obj\Release\EditablePointsOnPolynom.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\obj\Release\EditablePointsOnPolynom.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\EditablePointsOnPolynom\obj\Release\EditablePointsOnPolynom.pdb

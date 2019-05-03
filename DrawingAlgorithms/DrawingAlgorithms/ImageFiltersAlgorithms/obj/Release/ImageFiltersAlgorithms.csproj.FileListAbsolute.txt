@@ -1,0 +1,9 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\bin\Release\ImageFiltersAlgorithms.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\bin\Release\ImageFiltersAlgorithms.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.Properties.Resources.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.Window.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.csproj.GenerateResource.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageFiltersAlgorithms\obj\Release\ImageFiltersAlgorithms.pdb

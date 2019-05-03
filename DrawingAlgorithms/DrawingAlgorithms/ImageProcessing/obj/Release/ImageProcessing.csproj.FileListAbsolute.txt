@@ -1,0 +1,8 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\bin\Release\ImageProcessing.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\bin\Release\ImageProcessing.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\obj\Release\ImageProcessing.Properties.Resources.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\obj\Release\ImageProcessing.Window.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\obj\Release\ImageProcessing.csproj.GenerateResource.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\obj\Release\ImageProcessing.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\obj\Release\ImageProcessing.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\ImageProcessing\obj\Release\ImageProcessing.pdb

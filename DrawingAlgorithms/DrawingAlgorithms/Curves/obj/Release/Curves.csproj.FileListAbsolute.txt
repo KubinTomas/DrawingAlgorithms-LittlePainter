@@ -1,0 +1,7 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\bin\Release\Curves.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\bin\Release\Curves.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\obj\Release\Curves.Window.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\obj\Release\Curves.csproj.GenerateResource.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\obj\Release\Curves.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\obj\Release\Curves.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Curves\obj\Release\Curves.pdb

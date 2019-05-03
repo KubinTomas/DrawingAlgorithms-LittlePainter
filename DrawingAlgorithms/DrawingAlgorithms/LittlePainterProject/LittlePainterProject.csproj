@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E697AFDA-9A98-438D-8370-19503E8D3BCA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LittlePainterProject</RootNamespace>
+    <AssemblyName>LittlePainterProject</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Circle\BasicCircleAlgorithm.cs" />
+    <Compile Include="Algorithms\Circle\ICircleAlgorithm.cs" />
+    <Compile Include="Algorithms\Line\BresenhamLine.cs" />
+    <Compile Include="Algorithms\Line\ILineAlgorithm.cs" />
+    <Compile Include="Interfaces\IPainterObject.cs" />
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowSetting.cs" />
+    <Compile Include="Models\Circle\CircleModel.cs" />
+    <Compile Include="Models\CustomBitmap\BitmapHistory\DirectBitmapHistory.cs" />
+    <Compile Include="Models\CustomBitmap\DirectBitmap.cs" />
+    <Compile Include="Models\CustomBitmap\ICustomBitmap.cs" />
+    <Compile Include="Models\Customize\MagicColor.cs" />
+    <Compile Include="Models\DrawingModels\TriangleModel.cs" />
+    <Compile Include="Models\Managers\CircleManager.cs" />
+    <Compile Include="Models\Managers\DrawingManager.cs" />
+    <Compile Include="Models\Managers\PainterManager.cs" />
+    <Compile Include="Models\Managers\PenLineManager.cs" />
+    <Compile Include="Models\Managers\StraightLineManager.cs" />
+    <Compile Include="Models\Managers\TriangleManager.cs" />
+    <Compile Include="Models\Optimalizators\PointOptimalizator.cs" />
+    <Compile Include="Models\PenLine\PenLine.cs" />
+    <Compile Include="Models\PenLine\PenLinePoint.cs" />
+    <Compile Include="Models\Preview\PenLinePreviewContainer.cs" />
+    <Compile Include="Models\Preview\PreviewContainer.cs" />
+    <Compile Include="Models\Share\BPoint.cs" />
+    <Compile Include="Models\Share\CustomPoint.cs" />
+    <Compile Include="Models\Share\IBPoint.cs" />
+    <Compile Include="Models\Share\IPaintObjectRestictions.cs" />
+    <Compile Include="Models\Share\Setting.cs" />
+    <Compile Include="Models\Tools\CircleTool.cs" />
+    <Compile Include="Models\Tools\PenLineTool.cs" />
+    <Compile Include="Models\Tools\StraightLineTool.cs" />
+    <Compile Include="Models\Tools\Tool.cs" />
+    <Compile Include="Models\Tools\TriangleTool.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Validators\CanvasValidator.cs" />
+    <Compile Include="Windows\MenuControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\MenuControl.Designer.cs">
+      <DependentUpon>MenuControl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\MenuControl.resx">
+      <DependentUpon>MenuControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Actions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CursorFile\PenCursor.cur" />
+    <Resource Include="Icons\Cursors\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\Cursors\circleCursor.png" />
+    <None Include="Resources\newIcon.png" />
+    <None Include="Resources\redrawIcon.png" />
+    <None Include="Resources\clearicon.png" />
+    <None Include="Resources\saveIcon1.png" />
+    <None Include="Resources\saveIcon.png" />
+    <None Include="Resources\straightLineCursor1.png" />
+    <None Include="Resources\triangleCursor.png" />
+    <None Include="Resources\straightLineCursor.png" />
+    <None Include="Resources\circleCursor1.png" />
+    <None Include="Resources\circleCursor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

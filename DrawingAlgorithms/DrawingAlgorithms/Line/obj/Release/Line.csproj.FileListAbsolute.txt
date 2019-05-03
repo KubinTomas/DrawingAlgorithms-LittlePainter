@@ -1,0 +1,5 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Line\bin\Release\Line.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Line\bin\Release\Line.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Line\obj\Release\Line.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Line\obj\Release\Line.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\Line\obj\Release\Line.pdb

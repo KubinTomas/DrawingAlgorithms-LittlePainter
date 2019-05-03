@@ -1,0 +1,8 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\bin\Release\FillingAlgorithms.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\bin\Release\FillingAlgorithms.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\obj\Release\FillingAlgorithms.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\obj\Release\FillingAlgorithms.Window.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\obj\Release\FillingAlgorithms.csproj.GenerateResource.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\obj\Release\FillingAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\obj\Release\FillingAlgorithms.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\FillingAlgorithms\obj\Release\FillingAlgorithms.pdb

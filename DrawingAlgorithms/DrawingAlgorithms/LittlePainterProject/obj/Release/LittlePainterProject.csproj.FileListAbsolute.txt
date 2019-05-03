@@ -1,0 +1,11 @@
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\bin\Release\LittlePainterProject.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\bin\Release\LittlePainterProject.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.MainWindow.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.Windows.MenuControl.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.csproj.GenerateResource.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.dll
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.pdb
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.g.resources
+C:\Users\Tommy\Desktop\DrawingAlgorithms\DrawingAlgorithms\LittlePainterProject\obj\Release\LittlePainterProject.Properties.Resources.resources
