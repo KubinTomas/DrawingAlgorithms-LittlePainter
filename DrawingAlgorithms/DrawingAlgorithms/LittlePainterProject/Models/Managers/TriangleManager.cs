@@ -1,5 +1,6 @@
 ﻿using LittlePainterProject.Algorithms.Line;
 using LittlePainterProject.Models.CustomBitmap;
+using LittlePainterProject.Models.Customize;
 using LittlePainterProject.Models.DrawingModels;
 using LittlePainterProject.Models.PenLineNamespace;
 using LittlePainterProject.Models.Share;
@@ -165,6 +166,28 @@ namespace LittlePainterProject.Models.Managers
         public override void DestroySavedObjects()
         {
             _triangles = new List<TriangleModel>();
+        }
+
+        public override void RandomizePointColors()
+        {
+            foreach (var triangle in _triangles)
+            {
+                foreach (var point in triangle.GetPoints())
+                {
+                    point.Color = MagicColor.GetRandomColor();
+                }
+            }
+        }
+
+        public override void ReturnPointsPreviousColor()
+        {
+            foreach (var triangle in _triangles)
+            {
+                foreach (var point in triangle.GetPoints())
+                {
+                    point.Color = point.PreviousColor;
+                }
+            }
         }
     }
 }

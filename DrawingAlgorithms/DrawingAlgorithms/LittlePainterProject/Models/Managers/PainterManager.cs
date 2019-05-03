@@ -107,5 +107,25 @@ namespace LittlePainterProject.Models.Managers
                 drawingManager.Value.DestroySavedObjects();
             }
         }
+        /// <summary>
+        /// Set all points random color
+        /// </summary>
+        public void RandomizePointColors()
+        {
+            foreach (var drawingManager in _drawingManagers)
+            {
+                drawingManager.Value.RandomizePointColors();
+            }
+        }
+        /// <summary>
+        /// Return previous color of all points
+        /// </summary>
+        public void ReturnPreviousPointColor()
+        {
+            foreach (var drawingManager in _drawingManagers)
+            {
+                drawingManager.Value.ReturnPointsPreviousColor();
+            }
+        }
     }
 }

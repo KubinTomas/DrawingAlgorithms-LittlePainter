@@ -150,6 +150,18 @@ namespace LittlePainterProject
         {
             if (e.KeyCode == Keys.C) ClearCanvas();
             if (e.KeyCode == Keys.D) DrawObjects();
+            if (e.KeyCode == Keys.P)
+            {
+                _painterManager.RandomizePointColors();
+
+                DrawObjects();
+            }
+            if (e.KeyCode == Keys.O)
+            {
+                _painterManager.ReturnPreviousPointColor();
+
+                DrawObjects();
+            }
         }
 
         private void canvas_Click(object sender, EventArgs e)

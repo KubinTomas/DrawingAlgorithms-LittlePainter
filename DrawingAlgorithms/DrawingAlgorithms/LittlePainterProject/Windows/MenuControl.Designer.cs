@@ -40,21 +40,23 @@
             this.fastSavedColorBtn3 = new System.Windows.Forms.Button();
             this.fastSavedColorBtn2 = new System.Windows.Forms.Button();
             this.fastSavedColorBtn1 = new System.Windows.Forms.Button();
-            this.seedFillAlgBtn = new System.Windows.Forms.Button();
             this.sizeLbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.sizeTrBar = new System.Windows.Forms.TrackBar();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.triangleBtn = new System.Windows.Forms.Button();
-            this.straightLine = new System.Windows.Forms.Button();
-            this.circleBtn = new System.Windows.Forms.Button();
-            this.penBtn = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnTooltip = new System.Windows.Forms.ToolTip(this.components);
+            this.previousColorsBtn = new System.Windows.Forms.Button();
+            this.randomColorsBtn = new System.Windows.Forms.Button();
             this.redrawBtn = new System.Windows.Forms.Button();
             this.newBtn = new System.Windows.Forms.Button();
             this.clearnBtn = new System.Windows.Forms.Button();
             this.saveImageBtn = new System.Windows.Forms.Button();
-            this.btnTooltip = new System.Windows.Forms.ToolTip(this.components);
+            this.triangleBtn = new System.Windows.Forms.Button();
+            this.straightLine = new System.Windows.Forms.Button();
+            this.circleBtn = new System.Windows.Forms.Button();
+            this.penBtn = new System.Windows.Forms.Button();
+            this.seedFillAlgBtn = new System.Windows.Forms.Button();
             this.settingsGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sizeTrBar)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -164,16 +166,6 @@
             this.fastSavedColorBtn1.TabIndex = 5;
             this.fastSavedColorBtn1.UseVisualStyleBackColor = false;
             // 
-            // seedFillAlgBtn
-            // 
-            this.seedFillAlgBtn.Image = global::LittlePainterProject.Properties.Resources.fillColorCan;
-            this.seedFillAlgBtn.Location = new System.Drawing.Point(10, 15);
-            this.seedFillAlgBtn.Name = "seedFillAlgBtn";
-            this.seedFillAlgBtn.Size = new System.Drawing.Size(50, 50);
-            this.seedFillAlgBtn.TabIndex = 4;
-            this.seedFillAlgBtn.UseVisualStyleBackColor = true;
-            this.seedFillAlgBtn.Click += new System.EventHandler(this.seedFillAlgBtn_Click);
-            // 
             // sizeLbl
             // 
             this.sizeLbl.AutoSize = true;
@@ -218,58 +210,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tools";
             // 
-            // triangleBtn
-            // 
-            this.triangleBtn.Image = global::LittlePainterProject.Properties.Resources.triangleCursor;
-            this.triangleBtn.Location = new System.Drawing.Point(174, 19);
-            this.triangleBtn.Name = "triangleBtn";
-            this.triangleBtn.Size = new System.Drawing.Size(50, 50);
-            this.triangleBtn.TabIndex = 3;
-            this.triangleBtn.UseVisualStyleBackColor = true;
-            this.triangleBtn.Click += new System.EventHandler(this.triangleBtn_Click);
-            // 
-            // straightLine
-            // 
-            this.straightLine.Image = global::LittlePainterProject.Properties.Resources.straightLineCursor1;
-            this.straightLine.Location = new System.Drawing.Point(62, 19);
-            this.straightLine.Name = "straightLine";
-            this.straightLine.Size = new System.Drawing.Size(50, 50);
-            this.straightLine.TabIndex = 2;
-            this.straightLine.UseVisualStyleBackColor = true;
-            this.straightLine.Click += new System.EventHandler(this.straightLine_Click);
-            // 
-            // circleBtn
-            // 
-            this.circleBtn.Image = global::LittlePainterProject.Properties.Resources.circleCursor1;
-            this.circleBtn.Location = new System.Drawing.Point(118, 19);
-            this.circleBtn.Name = "circleBtn";
-            this.circleBtn.Size = new System.Drawing.Size(50, 50);
-            this.circleBtn.TabIndex = 1;
-            this.circleBtn.UseVisualStyleBackColor = true;
-            this.circleBtn.Click += new System.EventHandler(this.circleBtn_Click);
-            // 
-            // penBtn
-            // 
-            this.penBtn.Image = global::LittlePainterProject.Properties.Resources.pen1;
-            this.penBtn.Location = new System.Drawing.Point(6, 19);
-            this.penBtn.Name = "penBtn";
-            this.penBtn.Size = new System.Drawing.Size(50, 50);
-            this.penBtn.TabIndex = 0;
-            this.penBtn.UseVisualStyleBackColor = true;
-            this.penBtn.Click += new System.EventHandler(this.penBtn_Click);
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.previousColorsBtn);
+            this.groupBox2.Controls.Add(this.randomColorsBtn);
             this.groupBox2.Controls.Add(this.redrawBtn);
             this.groupBox2.Controls.Add(this.newBtn);
             this.groupBox2.Controls.Add(this.clearnBtn);
             this.groupBox2.Controls.Add(this.saveImageBtn);
             this.groupBox2.Location = new System.Drawing.Point(679, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(124, 138);
+            this.groupBox2.Size = new System.Drawing.Size(193, 138);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Controls";
+            // 
+            // previousColorsBtn
+            // 
+            this.previousColorsBtn.Image = global::LittlePainterProject.Properties.Resources.setPreviousColorIcon;
+            this.previousColorsBtn.Location = new System.Drawing.Point(118, 71);
+            this.previousColorsBtn.Name = "previousColorsBtn";
+            this.previousColorsBtn.Size = new System.Drawing.Size(50, 50);
+            this.previousColorsBtn.TabIndex = 9;
+            this.btnTooltip.SetToolTip(this.previousColorsBtn, "Return previous color to all points");
+            this.previousColorsBtn.UseVisualStyleBackColor = true;
+            this.previousColorsBtn.Click += new System.EventHandler(this.previousColorsBtn_Click);
+            // 
+            // randomColorsBtn
+            // 
+            this.randomColorsBtn.Image = global::LittlePainterProject.Properties.Resources.randomPointColorIcon;
+            this.randomColorsBtn.Location = new System.Drawing.Point(118, 15);
+            this.randomColorsBtn.Name = "randomColorsBtn";
+            this.randomColorsBtn.Size = new System.Drawing.Size(50, 50);
+            this.randomColorsBtn.TabIndex = 8;
+            this.btnTooltip.SetToolTip(this.randomColorsBtn, "Give all points random color");
+            this.randomColorsBtn.UseVisualStyleBackColor = true;
+            this.randomColorsBtn.Click += new System.EventHandler(this.randomColorsBtn_Click);
             // 
             // redrawBtn
             // 
@@ -314,6 +290,56 @@
             this.btnTooltip.SetToolTip(this.saveImageBtn, "Save bitmap as image\r\n");
             this.saveImageBtn.UseVisualStyleBackColor = true;
             this.saveImageBtn.Click += new System.EventHandler(this.saveImageBtn_Click);
+            // 
+            // triangleBtn
+            // 
+            this.triangleBtn.Image = global::LittlePainterProject.Properties.Resources.triangleCursor;
+            this.triangleBtn.Location = new System.Drawing.Point(174, 19);
+            this.triangleBtn.Name = "triangleBtn";
+            this.triangleBtn.Size = new System.Drawing.Size(50, 50);
+            this.triangleBtn.TabIndex = 3;
+            this.triangleBtn.UseVisualStyleBackColor = true;
+            this.triangleBtn.Click += new System.EventHandler(this.triangleBtn_Click);
+            // 
+            // straightLine
+            // 
+            this.straightLine.Image = global::LittlePainterProject.Properties.Resources.straightLineCursor1;
+            this.straightLine.Location = new System.Drawing.Point(62, 19);
+            this.straightLine.Name = "straightLine";
+            this.straightLine.Size = new System.Drawing.Size(50, 50);
+            this.straightLine.TabIndex = 2;
+            this.straightLine.UseVisualStyleBackColor = true;
+            this.straightLine.Click += new System.EventHandler(this.straightLine_Click);
+            // 
+            // circleBtn
+            // 
+            this.circleBtn.Image = global::LittlePainterProject.Properties.Resources.circleCursor1;
+            this.circleBtn.Location = new System.Drawing.Point(118, 19);
+            this.circleBtn.Name = "circleBtn";
+            this.circleBtn.Size = new System.Drawing.Size(50, 50);
+            this.circleBtn.TabIndex = 1;
+            this.circleBtn.UseVisualStyleBackColor = true;
+            this.circleBtn.Click += new System.EventHandler(this.circleBtn_Click);
+            // 
+            // penBtn
+            // 
+            this.penBtn.Image = global::LittlePainterProject.Properties.Resources.pen1;
+            this.penBtn.Location = new System.Drawing.Point(6, 19);
+            this.penBtn.Name = "penBtn";
+            this.penBtn.Size = new System.Drawing.Size(50, 50);
+            this.penBtn.TabIndex = 0;
+            this.penBtn.UseVisualStyleBackColor = true;
+            this.penBtn.Click += new System.EventHandler(this.penBtn_Click);
+            // 
+            // seedFillAlgBtn
+            // 
+            this.seedFillAlgBtn.Image = global::LittlePainterProject.Properties.Resources.fillColorCan;
+            this.seedFillAlgBtn.Location = new System.Drawing.Point(10, 15);
+            this.seedFillAlgBtn.Name = "seedFillAlgBtn";
+            this.seedFillAlgBtn.Size = new System.Drawing.Size(50, 50);
+            this.seedFillAlgBtn.TabIndex = 4;
+            this.seedFillAlgBtn.UseVisualStyleBackColor = true;
+            this.seedFillAlgBtn.Click += new System.EventHandler(this.seedFillAlgBtn_Click);
             // 
             // MenuControl
             // 
@@ -362,5 +388,7 @@
         private System.Windows.Forms.Button fastSavedColorBtn4;
         private System.Windows.Forms.Button fastSavedColorBtn3;
         private System.Windows.Forms.Button fastSavedColorBtn2;
+        private System.Windows.Forms.Button previousColorsBtn;
+        private System.Windows.Forms.Button randomColorsBtn;
     }
 }

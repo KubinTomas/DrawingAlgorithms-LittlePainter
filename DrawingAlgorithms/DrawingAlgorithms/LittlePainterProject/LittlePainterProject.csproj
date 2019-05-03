@@ -121,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icons\Cursors\circleCursor.png" />
+    <None Include="Resources\setPreviousColorIcon.png" />
+    <None Include="Resources\setPreviousColorIcon.jpg.png" />
+    <None Include="Resources\randomPointColorIcon.png" />
     <None Include="Resources\fillColorCan.png" />
     <None Include="Resources\newIcon.png" />
     <None Include="Resources\redrawIcon.png" />

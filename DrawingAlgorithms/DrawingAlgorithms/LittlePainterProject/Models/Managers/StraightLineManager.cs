@@ -1,5 +1,6 @@
 ﻿using LittlePainterProject.Algorithms.Line;
 using LittlePainterProject.Models.CustomBitmap;
+using LittlePainterProject.Models.Customize;
 using LittlePainterProject.Models.PenLineNamespace;
 using LittlePainterProject.Models.Share;
 using LittlePainterProject.Models.Tools;
@@ -129,6 +130,28 @@ namespace LittlePainterProject.Models.Managers
         public override void DestroySavedObjects()
         {
             _penLines = new List<PenLine>();
+        }
+
+        public override void RandomizePointColors()
+        {
+            foreach (var penLine in _penLines)
+            {
+                foreach (var point in penLine.GetPoints())
+                {
+                    point.Color = MagicColor.GetRandomColor();
+                }
+            }
+        }
+
+        public override void ReturnPointsPreviousColor()
+        {
+            foreach (var penLine in _penLines)
+            {
+                foreach (var point in penLine.GetPoints())
+                {
+                    point.Color = point.PreviousColor;
+                }
+            }
         }
     }
 }

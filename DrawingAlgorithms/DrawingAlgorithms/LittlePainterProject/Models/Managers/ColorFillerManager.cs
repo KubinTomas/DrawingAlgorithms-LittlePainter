@@ -41,5 +41,13 @@ namespace LittlePainterProject.Models.Managers
 
         public override void DestroySavedObjects()
         { }
+
+        public override void RandomizePointColors()
+        {
+        }
+
+        public override void ReturnPointsPreviousColor()
+        {
+        }
     }
 }

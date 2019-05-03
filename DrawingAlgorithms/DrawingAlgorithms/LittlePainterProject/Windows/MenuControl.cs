@@ -132,5 +132,17 @@ namespace LittlePainterProject.Windows
 
             mainWindow.ClearCanvas();
         }
+
+        private void randomColorsBtn_Click(object sender, EventArgs e)
+        {
+            painterManager.RandomizePointColors();
+            mainWindow.DrawObjects();
+        }
+
+        private void previousColorsBtn_Click(object sender, EventArgs e)
+        {
+            painterManager.ReturnPreviousPointColor();
+            mainWindow.DrawObjects();
+        }
     }
 }

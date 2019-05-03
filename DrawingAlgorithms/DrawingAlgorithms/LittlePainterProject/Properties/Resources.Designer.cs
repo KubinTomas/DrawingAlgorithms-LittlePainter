@@ -133,6 +133,16 @@ namespace LittlePainterProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap randomPointColorIcon {
+            get {
+                object obj = ResourceManager.GetObject("randomPointColorIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap redrawIcon {
             get {
                 object obj = ResourceManager.GetObject("redrawIcon", resourceCulture);
@@ -156,6 +166,26 @@ namespace LittlePainterProject.Properties {
         internal static System.Drawing.Bitmap saveIcon1 {
             get {
                 object obj = ResourceManager.GetObject("saveIcon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap setPreviousColorIcon {
+            get {
+                object obj = ResourceManager.GetObject("setPreviousColorIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap setPreviousColorIcon_jpg {
+            get {
+                object obj = ResourceManager.GetObject("setPreviousColorIcon.jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

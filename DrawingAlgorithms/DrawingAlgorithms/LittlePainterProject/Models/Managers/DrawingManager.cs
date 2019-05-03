@@ -44,5 +44,8 @@ namespace LittlePainterProject.Models.Managers
 
         public abstract void DestroySavedObjects();
 
+        public abstract void RandomizePointColors();
+
+        public abstract void ReturnPointsPreviousColor();
     }
 }

@@ -1,6 +1,7 @@
 ﻿using LittlePainterProject.Algorithms.Circle;
 using LittlePainterProject.Models.Circle;
 using LittlePainterProject.Models.CustomBitmap;
+using LittlePainterProject.Models.Customize;
 using LittlePainterProject.Models.Share;
 using LittlePainterProject.Models.Tools;
 using LittlePainterProject.Validators;
@@ -135,6 +136,28 @@ namespace LittlePainterProject.Models.Managers
         public override void DestroySavedObjects()
         {
             _circles = new List<CircleModel>();
+        }
+
+        public override void RandomizePointColors()
+        {
+            foreach (var circle in _circles)
+            {
+                foreach (var point in circle.GetPoints())
+                {
+                    point.Color = MagicColor.GetRandomColor();
+                }
+            }
+        }
+
+        public override void ReturnPointsPreviousColor()
+        {
+            foreach (var circle in _circles)
+            {
+                foreach (var point in circle.GetPoints())
+                {
+                    point.Color = point.PreviousColor;
+                }
+            }
         }
     }
 }

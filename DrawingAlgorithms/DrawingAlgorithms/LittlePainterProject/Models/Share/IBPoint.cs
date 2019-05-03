@@ -13,6 +13,7 @@ namespace LittlePainterProject.Models.Share
         int Y { get; set; }
 
         Color Color { get; set; }
+        Color PreviousColor { get; }
 
         bool DoesPointMatchPosition(IBPoint point);
 
