@@ -31,6 +31,7 @@ namespace LittlePainterProject.Models.Managers
             drawingManagers.Add(CircleManager.Tool, new CircleManager(bitmap));
             drawingManagers.Add(StraightLineManager.Tool, new StraightLineManager(bitmap));
             drawingManagers.Add(TriangleManager.Tool, new TriangleManager(bitmap));
+            drawingManagers.Add(ColorFillerManager.Tool, new ColorFillerManager(bitmap));
 
             return drawingManagers;
         }

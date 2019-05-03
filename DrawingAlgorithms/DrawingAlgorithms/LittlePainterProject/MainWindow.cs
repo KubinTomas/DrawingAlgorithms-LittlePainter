@@ -50,6 +50,7 @@ namespace LittlePainterProject
             canvas.BackColor = Color.White;
 
             canvas.Image = new Bitmap(canvas.Width, canvas.Height);
+
             _bitmap = new DirectBitmap(canvas.Width, canvas.Height);
             _painterManager = new PainterManager(_bitmap);
 
@@ -88,7 +89,7 @@ namespace LittlePainterProject
                 //draw all stored objects
                // _painterManager.Draw();
 
-               // RefreshCanvas();
+                 RefreshCanvas();
             }
 
         }

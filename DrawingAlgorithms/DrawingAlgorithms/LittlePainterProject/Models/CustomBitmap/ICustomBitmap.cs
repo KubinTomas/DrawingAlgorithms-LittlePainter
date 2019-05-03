@@ -16,6 +16,8 @@ namespace LittlePainterProject.Models.CustomBitmap
 
         Color GetPixel(int x, int y);
 
+        IBPoint GetPixelPoint(int x, int y);
+
         Bitmap GetBitmap();
     }
 }

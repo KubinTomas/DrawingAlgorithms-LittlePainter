@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Algorithms\Circle\BasicCircleAlgorithm.cs" />
     <Compile Include="Algorithms\Circle\ICircleAlgorithm.cs" />
+    <Compile Include="Algorithms\ColorFilling\IColorFillingAlgorithm.cs" />
+    <Compile Include="Algorithms\ColorFilling\SeedFillingAlgorithm.cs" />
     <Compile Include="Algorithms\Line\BresenhamLine.cs" />
     <Compile Include="Algorithms\Line\ILineAlgorithm.cs" />
     <Compile Include="Interfaces\IPainterObject.cs" />
@@ -55,12 +57,14 @@
     </Compile>
     <Compile Include="MainWindowSetting.cs" />
     <Compile Include="Models\Circle\CircleModel.cs" />
+    <Compile Include="Models\CustomBitmap\Bitmap32.cs" />
     <Compile Include="Models\CustomBitmap\BitmapHistory\DirectBitmapHistory.cs" />
     <Compile Include="Models\CustomBitmap\DirectBitmap.cs" />
     <Compile Include="Models\CustomBitmap\ICustomBitmap.cs" />
     <Compile Include="Models\Customize\MagicColor.cs" />
     <Compile Include="Models\DrawingModels\TriangleModel.cs" />
     <Compile Include="Models\Managers\CircleManager.cs" />
+    <Compile Include="Models\Managers\ColorFillerManager.cs" />
     <Compile Include="Models\Managers\DrawingManager.cs" />
     <Compile Include="Models\Managers\PainterManager.cs" />
     <Compile Include="Models\Managers\PenLineManager.cs" />
@@ -77,6 +81,7 @@
     <Compile Include="Models\Share\IPaintObjectRestictions.cs" />
     <Compile Include="Models\Share\Setting.cs" />
     <Compile Include="Models\Tools\CircleTool.cs" />
+    <Compile Include="Models\Tools\ColorFillerTool.cs" />
     <Compile Include="Models\Tools\PenLineTool.cs" />
     <Compile Include="Models\Tools\StraightLineTool.cs" />
     <Compile Include="Models\Tools\Tool.cs" />

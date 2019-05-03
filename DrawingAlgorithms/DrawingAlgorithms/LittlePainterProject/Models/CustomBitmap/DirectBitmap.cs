@@ -60,6 +60,14 @@ namespace LittlePainterProject.Models.CustomBitmap
 
             return result;
         }
+        public IBPoint GetPixelPoint(int x, int y)
+        {
+            int index = x + (y * Width);
+            int col = Bits[index];
+            Color result = Color.FromArgb(col);
+
+            return new BPoint(x, y, result);
+        }
 
         public void Dispose()
         {

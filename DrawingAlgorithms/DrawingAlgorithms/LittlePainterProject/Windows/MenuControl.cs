@@ -69,5 +69,10 @@ namespace LittlePainterProject.Windows
         {
             painterManager.SetTool(TriangleManager.Tool);
         }
+
+        private void seedFillAlgBtn_Click(object sender, EventArgs e)
+        {
+            painterManager.SetTool(ColorFillerManager.Tool);
+        }
     }
 }
